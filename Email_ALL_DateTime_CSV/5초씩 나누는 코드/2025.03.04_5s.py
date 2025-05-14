@@ -3,7 +3,7 @@ import numpy as np
 from pathlib import Path
 
 # 디렉토리 설정
-input_dir = Path(r'C:/Users/LG/Desktop/PN_Project/PN_Project/Email_ALL_DateTime_CSV/2025.03.04')
+input_dir = Path(r'C:\Users\LG\Desktop\PN_Project\Email_ALL_DateTime_CSV\2025.03.04')
 output_dir = input_dir / '5초씩 데이터 가공'
 output_dir.mkdir(exist_ok=True)
 
